@@ -1,0 +1,50 @@
+.header{
+    padding-top: 41px;
+    padding-bottom: 41px;
+}
+.list{
+    width: 20px;
+    display: none;
+}
+
+
+.itmes  .a {
+    color: 0D0E43;
+}
+
+.search .text-search{
+    border: none;
+    outline: none;
+}
+
+.search .button-search{
+    border: none;
+    outline: none;
+}
+ 
+.search form
+{
+    border: 3px solid #E7E6EF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width:1200px )  {
+.itmes,.search{display: none;
+} 
+
+.list{
+    display: block;
+}
+
+}
