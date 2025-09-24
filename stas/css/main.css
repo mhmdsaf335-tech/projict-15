@@ -1,6 +1,6 @@
 .header{
-    padding-top: 41px;
-    padding-bottom: 41px;
+ margin-top: 41px; 
+margin-bottom: 41px;   
 }
 .list{
     width: 20px;
@@ -8,10 +8,13 @@
 }
 
 
-.itmes  .a {
+.itmes .taxt-link {
     color: 0D0E43;
 }
-
+.itmes .mainColor
+{
+    color: var(--mainColor);
+}
 .search .text-search{
     border: none;
     outline: none;
@@ -20,11 +23,14 @@
 .search .button-search{
     border: none;
     outline: none;
-}
+    background-color: var(--mainColor);
+padding: 5px;}
  
 .search form
 {
-    border: 3px solid #E7E6EF;
+    border: 2px solid #E7E6EF;
+padding-bottom: 5px;
+
 }
 
 
